@@ -1,0 +1,44 @@
+# jemdoc: menu{MENU}{publication.html}, fwtitle, nofooter
+== Mrinal Kanti Das
+
+== Publications
+. [http://arxiv.org/abs/1606.02109 Efficient differentially private learning improves drug sensitivity prediction].\n
+Antti Honkela(1), *Mrinal Das*(1), Onur Dikmen, Samuel Kaski. \n
+(1) These authors contributed equally to this work.
+. [sumo.html Ordered Stick-Breaking Prior for Sequential MCMC Inference of Bayesian Nonparametric Models]. \n
+*Mrinal Das*, Trapit Bansal, Chiranjib Bhattacharyya. \n
+[http://icml.cc/2015/ International Conference on Machine Learning (*ICML*), 2015].
+. Content Driven User Profiling for Comment-Worthy Recommendations of News and Blog Articles.\n
+ Trapit Bansal, *Mrinal Das*, Chiranjib Bhattacharyya. \n
+[http://recsys.acm.org/recsys15/ The ACM Conference Series on Recommender Systems (*RecSys*), 2015].
+. [http://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/view/9503 Relating Romanized Comments to News Articles by Inferring Multi-glyphic Topical Correspondence]. \n
+Goutham Tholpadi, *Mrinal Das*, Trapit Bansal, Chiranjib Bhattacharyya. \n
+[http://www.aaai.org/Conferences/AAAI/aaai15.php Association for the Advancement of Artificial Intelligence Conference (*AAAI*), 2015].
+. [http://mllab.csa.iisc.ernet.in/sctm/ Going beyond Corr-LDA for Detecting Specific Comments on News & Blogs.] \n
+*Mrinal Das*, Trapit Bansal, Chiranjib Bhattacharyya. \n
+[http://www.wsdm-conference.org/2014/ ACM Conference on Web Search and Data Mining (*WSDM*), 2014].
+.. Recipient of travel award from Google and Yahoo!.
+. [http://mllab.csa.iisc.ernet.in/stm/ Subtle Topic Models and Discovering Subtly Manifested Software Concerns Automatically]. \n
+*Mrinal Das*, Suparna Bhattacharya, Chiranjib Bhattacharyya, K. Gopinath. \n
+[http://icml.cc/2013/ International Conference on Machine Learning (*ICML*), 2013].
+.. Recipient of travel award from Google and Yahoo!.
+. [ShoBha.pdf Cluster Labeling for Multilingual Scatter/Gather in Resource-scarce
+Languages]. \n
+Goutham Tholpadi, *Mrinal Das*, Chiranjib Bhattacharyya, Shirish Shevade. \n
+[http://ecir2012.upf.edu/ European Conference on Information Retrieval (*ECIR*), 2012]
+. [icdm2011.pdf Learning Dirichlet Processes from Partially Observed Groups]. \n
+Avinava Dubey, Indrajit Bhattacharya, *Mrinal Das*, Tanveer Faruquie, Chiranjib Bhattacharyya. \n
+[http://icdm2011.cs.ualberta.ca/index.php International Conference on Data Mining (*ICDM*), 2011]
+. [http://www.informatik.uni-trier.de/~ley/db/journals/fuin/fuin83.html\#GhoshD08  Non-dominated Rank based Sorting Genetic Algorithms]. \n
+Ashish Ghosh, *Mrinal Kanti Das*. \n
+Journal of Fundamenta Informaticae, volume 83, number 3, pages 231-252, 2008.
+
+== Archived
+. [btm.html Method and System for Legal Documents Categorization using Flexible Topic Modeling]. \n
+*Mrinal Das*, Chiranjib Bhattacharyya, Shirish Shevade. Under patenting process with Infosys.
+. [cstm.html Modeling Statement Context to Surface even Rare Diffused Topics Automatically]. \n
+Suparna Bhattacharya,
+*Mrinal Kanti Das*, Chiranjib Bhattacharyya, K. Gopinath. \n
+[http://www.csa.iisc.ernet.in/TR/ Tech report, 2012-3], CSA, Indian Institute of Science, Bangalore, India, 2012.
+
+

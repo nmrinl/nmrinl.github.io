@@ -1,0 +1,14 @@
+== Multi-lingual hier-archical topic models
+
+[index.html Mrinal Das]
+
+On going work.
+
+== Abstract
+~~~
+The approach is based on nested Chinese restaurant process (D. Blei et al, NIPS 2003). Given a tree documents in different languages are generated independently where generative process for each language is same as in nCRP. The advantage of the approach is that, the only requirement for the model is aligned documents in different languages, and there is no need of dictionary or other NLP tools like POS taggers, stemmers etc. One immediate application of this model is to learn multi-lingual taxonomies.
+~~~
+
+== One sample result
+I have tested the approach on Wikipedia considering articles in Bengali and the corresponding articles in English. A small tree of the outcome can be seen here: [tree1.html original version], [tree2.html translated tags] (using Google translate).
+  

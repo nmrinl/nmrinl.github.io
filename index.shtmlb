@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<!--#set var="ics_type" value="personal" -->
+<!--#set var="ics_title" value="Mrinal Kanti Das" -->
+<!--#set var="ics_maintainer" value="Mrinal Kanti Das" -->
+<!--#include virtual="/style/2010/ics_header.shtml" -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Mrinal Kanti Das</title>
+</head>
+<body>
+<div id="fwtitle">
+<div id="toptitle">
+<h1>Mrinal Kanti Das</h1>
+</div>
+</div>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-item"><a href="index.html" class="current">Home</a></div>
+<div class="menu-item"><a href="publication.html">Publications</a></div>
+<div class="menu-item"><a href="projects.html">Projects</a></div>
+<div class="menu-item"><a href="others.html">Other<br /> experiences</a></div>
+<div class="menu-item"><a href="education.html">Education</a></div>
+<div class="menu-item"><a href="datasets.html">Datasets</a></div>
+<div class="menu-item"><a href="colla.html">Collaborators</a></div>
+<div class="menu-category">External links</div>
+<div class="menu-item"><a href="http://www.informatik.uni-trier.de/~ley/pers/hd/d/Das:Mrinal_Kanti">DBLP</a></div>
+<div class="menu-item"><a href="http://scholar.google.co.in/citations?user=N9D6pQMAAAAJ">Google&nbsp;scholar</a></div>
+<div class="menu-item"><a href="http://www.linkedin.com/pub/mrinal-das/10/858/2a6">LinkedIn</a></div>
+<div class="menu-item"><a href="https://iisc.academia.edu/MrinalDas">Academia.edu</a></div>
+<div class="menu-item"><a href="https://www.researchgate.net/profile/Mrinal_Das5/?ev=hdr_xprf">ResearchGate</a></div>
+</td>
+<td id="layout-content">
+<table class="imgtable"><tr><td>
+<img src="mrinal.jpg" alt="alt text" width="200px" height="300px" />&nbsp;</td>
+<td align="left"><p>PhD student, <a href="http://mllab.csa.iisc.ernet.in/">Machine Learning Lab</a> <br />
+<a href="http://www.csa.iisc.ernet.in">Department of Computer Science and Automation</a><br />
+<a href="http://www.iisc.ernet.in">Indian Institute of Science</a><br />
+Bangalore, India, PIN - 560 012</p>
+<p>Email: mrinal <a href="at">at</a> csa <a href="dot">dot</a> iisc <a href="dot">dot</a> ernet <a href="dot">dot</a> in <br />
+Personal email: nmrinl <a href="at">at</a> gmail <a href="dot">dot</a> com</p>
+<p>Advisor :  <a href="http://drona.csa.iisc.ernet.in/~chiru/">Prof. Chiranjib Bhattacharyya</a></p>
+</td></tr></table>
+<p>My fascination is to develop simple and novel mathematical models to address interesting and challenging practical problems. During my PhD I have focused on text datasets, they are ubiquitous and possess some interesting challenges requiring novel techniques. Broadly, I am interested in</p>
+<ul>
+<li><p>Designing hierarchical Bayesian models for text datasets (mono-lingual as well as multi-lingual), information retrieval and extraction.</p>
+</li>
+</ul>
+<ul>
+<li><p>Exploring nonparametric Bayesian models for practical problems.</p>
+</li>
+</ul>
+<p>I am proficient and experienced in using both variational approximation as well as MCMC based inference for topic models. I like to explore different areas of application and in recent past I have worked with various types of text datasets like software projects, speech transcripts, multi-lingual corpora, news/blogs and comments. I have observed some challenging problems associated with these applications and developed novel mathematical models to solve them.</p>
+<h2>Overview of my recent work</h2>
+<p>Topic models are popular mathematical tools for analysing text datasets, where a corpus is a collection of documents. The state of art notion in topic models was to use <tt>single topic vector</tt> per document.</p>
+<p>I came up with the novel yet simple idea of using <tt>multiple topic vectors</tt> (MTV). We have observed phenomenal ability of MTV in (i) discovering subtle topics, (ii) modeling specific correspondence, (iii) modeling multi-glyphic topical correspondence, (iv) content driven user profiling for comment-worthy recommendations. All of them helped in inventing novel models (i) <a href="http://mllab.csa.iisc.ernet.in/stm/">subtle topic models (STM, in ICML, 2013)</a>, (ii) <a href="http://mllab.csa.iisc.ernet.in/sctm/">specific correspondence topic models (SCTM, in WSDM, 2014)</a>, (iii) <a href="http://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/view/9503">multi-glyphic correspondence topic model (AAAI, 2015)</a>, (iv) collaborative correspondence topic models (CCTM in RecSys, 2015).</p>
+<p>Recently, I had been working on nonparametric Bayesian models for learning very large scale (more than 8 million documents and 700 million tokens) datasets. There is <i>NO</i>  method known using MCMC for such scale without using expensive parallel hardware. The work has been accepted at ICML, 2015.</p>
+<h2>Personal Information</h2>
+<ul>
+<li><p>Born on May 10, 1982.</p>
+</li>
+<li><p>Citizen of India</p>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+<!--#include virtual="/style/2010/ics_footer.shtml" -->
+</body>
+</html>

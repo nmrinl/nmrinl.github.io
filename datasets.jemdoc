@@ -1,0 +1,15 @@
+# jemdoc: menu{MENU}{publication.html}, fwtitle, nofooter
+== Mrinal Kanti Das
+
+== Datasets
+- [http://en.wikipedia.org/wiki/BerkeleyDB Berkeley-DB] is the most widely used database toolkit in the world. [http://mllab.csa.iisc.ernet.in/stm/BerkeleyDB.tar download]
+- [http://www.jhotdraw.org/ JHotDraw] is a Java GUI framework for technical and structured Graphics. [http://mllab.csa.iisc.ernet.in/stm/JHotDraw.tar download]
+- [http://nips.cc/Conferences/2005/ NIPS-2005] Nineteenth Annual Conference on Neural Information Processing Systems.  [http://mllab.csa.iisc.ernet.in/stm/NIPS2005_texts.zip download]
+- [http://www.americanrhetoric.com/barackobamaspeeches.htm Obama speeches] is a collection of public speeches by Barack Obama. [http://mllab.csa.iisc.ernet.in/stm/Obama-speeches.tar download]
+
+#[http://mllab.csa.iisc.ernet.in/sctm/AllData.tar.gz Download All Datasets]
+#[http://mllab.csa.iisc.ernet.in/sctm/ReadMe.txt Read Me] for Data Format
+
+- [http://mllab.csa.iisc.ernet.in/sctm/AT-Science_Gold.tar.gz ArsTechnica Science (Gold Standard)]
+- [http://mllab.csa.iisc.ernet.in/sctm/AT-Gadgets.tar.gz ArsTechnica Gadgets]
+- [http://mllab.csa.iisc.ernet.in/sctm/Yahoo.tar.gz Yahoo! News]

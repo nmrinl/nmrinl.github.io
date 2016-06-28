@@ -1,0 +1,29 @@
+== Classification of text documents without any labelled data
+
+Topics discovered by the method. The +highlighted+ words were given input. Notice that the input words are not the most popular words in many cases.
+
+~~~
+{}{table}{TABLENAME}
+Topic | 10 most probable words (sorted) ||
+topic 1 | god +atheism+ science atheists evidence objective moral morality existence exist ||
+topic 2 | image +graphics+ ftp pub file software images gif format data ||
+topic 3 | +windows+ dos file mouse files driver program drivers screen microsoft ||
+topic 4 | drive scsi disk drives card controller bus floppy +bios+ isa ||
+topic 5 | +mac apple+ ibm monitor bit simms scsi mhz modem video ||
+topic 6 | window server motif widget mit lib sun application display +xterm+ ||
+topic 7 | +sale+ price shipping offer sell mail book condition cover excellent ||
+topic 8 | car +cars+ engine oil radar speed miles dealer driving ford ||
+topic 9 | bike dod ride dog +motorcycle+ cb helmet riding bikes bmw ||
+topic 10 | +baseball+ game team games runs players season cubs braves ball ||
+topic 11 | +hockey+ team game play nhl pts season period gm games ||
+topic 12 | key db +encryption+ keys chip privacy clipper security escrow secure ||
+topic 13 | +power+ water ground wire +circuit+ wiring audio  supply voltage neutral ||
+topic 14 | medical health msg food +disease+ patients doctor cancer pain aids ||
+topic 15 | +space+ nasa entry launch output satellite orbit moon gov lunar ||
+topic 16 | god jesus +christian+ bible church christ christians faith lord father ||
+topic 17 | gun +guns+ firearms weapons crime fbi police fire batf weapon ||
+topic 18 | +israel armenian+ turkish armenians israeli jews turkey armenia turks arab ||
+topic 19 | +government president+ clinton tax militia jobs congress money people american ||
+topic 20 | +religion+ people islam +muslim+ sandvik religious islamic sex kent society
+~~~
+

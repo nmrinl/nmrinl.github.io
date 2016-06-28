@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Modeling Statement Context to Surface even Rare Diffused Topics Automatically</title>
+</head>
+<body>
+<div id="layout-content">
+<div id="toptitle">
+<h1>Modeling Statement Context to Surface even Rare Diffused Topics Automatically</h1>
+</div>
+<p><a href="http://researcher.ibm.com/researcher/view.php?person=in-bsuparna">Suparna Bhattacharya</a>, <a href="http://clweb.csa.iisc.ernet.in/mrinal/">Mrinal Kanti Das</a>, <a href="http://drona.csa.iisc.ernet.in/~chiru/">Chiranjib Bhattacharyya</a>, <a href="http://drona.csa.iisc.ernet.in/~gopi/">K. Gopinath</a> <br />
+<a href="http://www.csa.iisc.ernet.in/TR/">Tech report, 2012-3</a>, CSA, Indian Institute of Science, Bangalore, India</p>
+<p><a href="tr.pdf">Download Paper</a></p>
+<h2>Abstract</h2>
+<div class="infoblock">
+<div class="blockcontent">
+<p>Statistical topic models infer topics from statistical information contained in a dataset. Existing topic
+models can detect topics if they are present prominently in some files or scattered widely across the files.
+However, they fail if a topic is diffused across a small percentage of files or in other words if a topic is neither
+prominent inside any file nor diffused widely across files. In this work we explore the problem of detecting
+such rare diffused topics. We observe that the local context of lines in a file play a key role in surfacing these
+topics. We introduce various mechanisms to control a topic model’s sensitivity towards local context. We
+propose CSTM (Context Sensitive Topic Model ), a new model that is capable of discovering prominent, widely
+diffused as well as rare diffused topics by leveraging the context of individual lines within each file.
+Rare diffused topics are quite common in software code, particularly in framework based software. We
+evaluate our model on surfacing software concerns automatically at the fine granularity of individual program
+statements. CSTM achieves a statement level concern assignment accuracy that agrees 70% of the time with
+typical programmer interpretation (as measured using systematically gathered feedback from 35 programmers
+for four Java applications). The ability to discover statement level concerns paves the way for a new class of
+automated analyses correlating latent concerns with program properties that vary at statement granularity.
+As a novel application, we demonstrate a completely unsupervised automatic summarization of byte-code
+execution profiles in terms of latent concerns.</p>
+</div></div>
+<h2>One interesting result of CSTM on Apache Lucene</h2>
+<table id="TABLENAME">
+<tr class="r1"><td class="c1"><b>Concern</b> </td><td class="c2"> <b>Topic words</b> </td><td class="c3"> <b>lusearch</b> </td><td class="c4"> <b>luindex</b> </td></tr>
+<tr class="r2"><td class="c1">SEARCH </td><td class="c2">  hits searcher score search docs </td><td class="c3"> 15% </td><td class="c4"> 0% </td></tr>
+<tr class="r3"><td class="c1"><tt>QUERY</tt>  </td><td class="c2"> query parse phrase queries multi </td><td class="c3"> <tt>39%</tt> </td><td class="c4"> 0% </td></tr>
+<tr class="r4"><td class="c1"><tt>WRITE (INDEX)</tt> </td><td class="c2">  write flush optimize characters reopen </td><td class="c3"> 3% </td><td class="c4"> <tt>46%</tt> </td></tr>
+<tr class="r5"><td class="c1">STEMMING </td><td class="c2">  stemmer stopwords snowball zip net </td><td class="c3"> 1% </td><td class="c4"> 3% </td></tr>
+<tr class="r6"><td class="c1">TOKEN BUFFER </td><td class="c2">  arraycopy begin end buffersize bufpos </td><td class="c3"> 3% </td><td class="c4"> 0% </td></tr>
+<tr class="r8"><td class="c1">EXPLAIN </td><td class="c2">  weight explanation score expl val </td><td class="c3"> 45% </td><td class="c4"> 0% </td></tr>
+<tr class="r9"><td class="c1">TIMING </td><td class="c2">  date time tools resolution cal </td><td class="c3"> 2.6% </td><td class="c4"> 0% </td></tr>
+<tr class="r10"><td class="c1">READER </td><td class="c2">  read input offset seek pos </td><td class="c3"> 23% </td><td class="c4"> 16% </td></tr>
+<tr class="r11"><td class="c1">
+</td></tr></table>
+<p>Above Table shows concern-wise bytecode execution summary for two benchmarks
+from the DaCapo suite, lusearch and luindex, which are both based on Apache lucene. It reports the
+cumulative bytecode execution cost attributed to sample concerns discovered in Apache lucene by our model
+CSTM. We list the top 5 words of a concern topic and assign a label to the concern for ease of interpretation.
+The entire process of generating the summary is fully automatic (except the choice of labels for concern topics of
+interest).<br /></p>
+<p>Note the differences in the profile for the two benchmarks. The SEARCH and QUERY related concerns, including EXPLAIN, have a high bytecode execution cost when running
+lusearch, but are hardly exercised when running luindex. On the other hand the WRITE concern contributes
+to a significant percentage of bytecodes executed when running luindex. Some other concerns such as READER
+affect the execution cost of both benchmarks. <br /></p>
+<p>As per the DaCapo benchmark descriptions, luindex uses lucene
+to index a set of documents while lusearch uses lucene to perform a text search of keywords over a corpus of
+data. Thus the results match with intuition. </p>
+<h2>Contact</h2>
+<p>Please feel free to contact &ldquo;mrinal at csa dot iisc dot ernet dot in&rdquo; for any queries, comments etc. <br /> If you have any thoughts or criticism on this work, we will be happy to discuss.</p>
+<div id="footer">
+<div id="footer-text">
+Page generated 2016-06-28 13:34:50 EEST, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+</div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+# jemdoc: menu{MENU}{projects.html}, fwtitle, nofooter
+== Mrinal Kanti Das
+
+== Projects
+#=== Completed
+- [sumo.html Ordered Stick-Breaking Prior for Sequential MCMC Inference of Bayesian Nonparametric Models]
+
+- [http://mllab.csa.iisc.ernet.in/stm/ Subtle topic models (STM)] \n
+	/Subtle/ topics are prominently present neither in the corpus nor in any single document. It is hard to detect such topics due to their subtle presence motivating the name. However a subtle topic despite being rare may have significant information. We propose STM to discover such topics. [http://mllab.csa.iisc.ernet.in/stm/ more details].
+
+- [http://mllab.csa.iisc.ernet.in/sctm/ Specific correspondence topic models (SCTM)] \n
+	Correspondence between a news article and a comment can be specific in nature i.e. the comment may be related only to a very small part of the article which may not be contiguous. Similar relationship can be found in paper-bibliography, image-tags etc. We call such relationships as specific correspondence and propose SCTM to model it. [http://mllab.csa.iisc.ernet.in/sctm/ more details].
+
+#- To discover software concerns automatically using context (jointly with Suparna Bhattacharya)\n
+- [cstm.html Context sensitive topic models (CSTM)] \n
+	Software concerns are latent intents of the programmer to develop the code. It has been observed that given the textual content of a software it is possible to infer the concerns automatically using topic models provided the code is written with meaningful identifiers. We define context of a statement as the statements  around the given statement and propose to utilize the context to find the concern of a statement leading to CSTM.  [cstm.html more details].
+
+
+#=== On going
+
+- [btm.html Classification of text documents without any labelled data] \n
+	It is expensive and some times near impossible to generate labelled training data given explosion in text information at present whether it be blogs, comments to news, software codes or websites. However classification is a basic step in many situations where the user is expected to have idea of the categories she wants the documents to be classified into. We propose to provide few descriptive words for each category and that can lead to excellent classification accuracy which can be very close to supervised methods like SVM which used labelled training data. [btm.html more details].
+
+#- To detect hierarchy of multilingual topics \n
+- [mhlda.html Multi-lingual hier-archical topic models] \n
+	Hier-archy of topics are useful representation of any corpus, where topics near the root present general topics and topics away from the roor describe more specific topics. For example, sports will be in some higher level of the tree than that of football. Nested Chinese restaurant process (nCRP) is well known to model such hierarchy for mono-lingual scenario. I am working on extending nCRP for learning the hierarchy in multi-lingual scenario where each node in language 1 will have a correspondence node in language 2. [mhlda.html more details].
+	

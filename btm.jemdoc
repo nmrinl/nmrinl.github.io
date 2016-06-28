@@ -1,0 +1,42 @@
+== Classification of text documents without any labelled data
+
+[index.html Mrinal Das], [http://drona.csa.iisc.ernet.in/~chiru/ Chiranjib Bhattacharyya], [http://drona.csa.iisc.ernet.in/~shirish/ Shirish Shevade]
+
+On going work. A part of this work is under patenting process with Infosys.
+
+== Abstract
+~~~
+Latent Dirichlet Allocation a very effective
+tool in modeling text. It is a probabilistic generative
+model that detects topics from a given
+set of texts. A topic is defined by a set of
+words. The algorithm starts with uniform distributions
+over the words for all the topics.
+So there is aparently no control over the algorithm
+in detecting the topics or in deciding
+the order of the topics beforehand. We introduce
+a novel approach to assign some prior
+distribution for each topic. The effectiveness of the model lead us to
+classify text corpora, without
+any labelled training data, and with accuracy
+very close to a very popular supervised classifier
+called Support Vector Machine. We also
+notice that this model can be extended
+to multi-lingual scenario as well.
+~~~
+
+== Preliminary results
+Classification accuracy on 20 News Groups dataset.
+
+~~~
+{}{table}{TABLENAME}
+*Method* | *Test set* | *Train set* ||
+Our method | 0.66 | 0.71 ||
+SVM | 0.77 | -
+~~~
+
+SVM was trained using the train set. No training, no labelled data were used for our method and the only input to the system was a few descriptive words corresponding to each of the 20 categories. See the input [20ng_keys.html here]. Notice that the input words are selected just from 1 or 2 words present in the name of the categories. \n
+
+Our method learns topics which are aligned with the input descriptive words and hence the categories. See the output topics [20ng_topics.html here].
+This explains efficacy of the approach. Notice that the topics contain many words which are semantically very much similar to the input words, and the input words in many cases are not the most probable word. This explains why the approach is not just a keyword search method. 
+

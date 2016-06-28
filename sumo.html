@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Ordered Stick-Breaking Prior for Sequential MCMC Inference of Bayesian Nonparametric Models</title>
+</head>
+<body>
+<div id="layout-content">
+<div id="toptitle">
+<h1>Ordered Stick-Breaking Prior for Sequential MCMC Inference of Bayesian Nonparametric Models</h1>
+</div>
+<p><a href="http://mllab.csa.iisc.ernet.in/mrinal/">Mrinal Kanti Das</a>, <a href="http://drona.csa.iisc.ernet.in/~chiru/">Chiranjib Bhattacharyya</a>, 
+<a href="https://sites.google.com/site/trapitbansal/">Trapit Bansal</a> <br />
+CSA, Indian Institute of Science, Bangalore, India</p>
+<p><a href="icml15.pdf">Download Paper</a></p>
+<h2>Abstract</h2>
+<div class="infoblock">
+<div class="blockcontent">
+<p>This paper introduces a novel stick-breaking
+process namely ordered stick-breaking process
+(OSBP), where the atoms appear in order. The
+choice of weights on atoms of OSBP ensure two
+important things; (1)that probability of adding
+new atoms exponentially decrease with time and
+(2)OSBP, though non-exchangeable, admits pre-
+dictive probability functions (PPFs). We apply
+OSBP to Bayesian nonparametric (BNP) models
+and find that in a sequential setting where data
+is arriving in mini-batches OSBP forms a natu-
+ral prior over mini-batches, facilitating exchange
+of relevant statistical information across mini-
+batches by sharing the atoms of OSBP. One of
+the major contributions of this paper is SUMO,
+an MCMC algorithm, for solving the inference
+problem arising from applying OSBP to BNP
+models. SUMO uses the PPFs of OSBP to ob-
+tain a Gibbs-sampling based truncation-free al-
+gorithm which applies generally to BNP mod-
+els. For large scale inference problems exist-
+ing algorithms such as Particle Filtering(PF) are
+not practical and variational procedures such as
+TSVI(Wang &amp; Blei, 2012) are the only alterna-
+tive. SUMO is thus an important addition to
+MCMC family which works well empirically.
+For Dirichlet process mixture model (DPMM),
+SUMO outperforms TSVI (Wang &amp; Blei, 2012)
+on perplexity by 33% on 3 datasets with million
+data points, which are beyond the scope of PF,
+using only 3GB RAM.</p>
+</div></div>
+<h2>Supplementary material</h2>
+<p>The supplementary material contains necessary mathematical background, proofs of theorems, examples and some illustration of concepts.</p>
+<p><a href="supp_icml.pdf">Download The Supplementary Material</a></p>
+<h2>Datasets</h2>
+<p>All the datasets are publicly available. Please see the paper for details.</p>
+<h2>Code</h2>
+<p>Will be added soon.</p>
+<div id="footer">
+<div id="footer-text">
+Page generated 2016-06-28 13:34:51 EEST, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+</div>
+</div>
+</div>
+</body>
+</html>

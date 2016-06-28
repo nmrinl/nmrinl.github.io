@@ -1,0 +1,65 @@
+== Modeling Statement Context to Surface even Rare Diffused Topics Automatically
+
+[http://researcher.ibm.com/researcher/view.php?person=in-bsuparna Suparna Bhattacharya], [http://clweb.csa.iisc.ernet.in/mrinal/ Mrinal Kanti Das], [http://drona.csa.iisc.ernet.in/~chiru/ Chiranjib Bhattacharyya], [http://drona.csa.iisc.ernet.in/~gopi/ K. Gopinath] \n
+[http://www.csa.iisc.ernet.in/TR/ Tech report, 2012-3], CSA, Indian Institute of Science, Bangalore, India
+
+[tr.pdf Download Paper]
+
+== Abstract
+~~~
+Statistical topic models infer topics from statistical information contained in a dataset. Existing topic
+models can detect topics if they are present prominently in some files or scattered widely across the files.
+However, they fail if a topic is diffused across a small percentage of files or in other words if a topic is neither
+prominent inside any file nor diffused widely across files. In this work we explore the problem of detecting
+such rare diffused topics. We observe that the local context of lines in a file play a key role in surfacing these
+topics. We introduce various mechanisms to control a topic model’s sensitivity towards local context. We
+propose CSTM (Context Sensitive Topic Model ), a new model that is capable of discovering prominent, widely
+diffused as well as rare diffused topics by leveraging the context of individual lines within each file.
+Rare diffused topics are quite common in software code, particularly in framework based software. We
+evaluate our model on surfacing software concerns automatically at the fine granularity of individual program
+statements. CSTM achieves a statement level concern assignment accuracy that agrees 70% of the time with
+typical programmer interpretation (as measured using systematically gathered feedback from 35 programmers
+for four Java applications). The ability to discover statement level concerns paves the way for a new class of
+automated analyses correlating latent concerns with program properties that vary at statement granularity.
+As a novel application, we demonstrate a completely unsupervised automatic summarization of byte-code
+execution profiles in terms of latent concerns.
+
+~~~
+
+== One interesting result of CSTM on Apache Lucene
+~~~
+{}{table}{TABLENAME}
+#Concerns | topic words | Runtime resource usage ||
+#| | bytecodes executed ||
+*Concern* | *Topic words* | *lusearch* | *luindex* ||
+SEARCH |  hits searcher score search docs | 15\% | 0\% ||
++QUERY+  | query parse phrase queries multi | +39\%+ | 0\% ||
++WRITE (INDEX)+ |  write flush optimize characters reopen | 3\% | +46\%+ ||
+STEMMING |  stemmer stopwords snowball zip net | 1\% | 3\% ||
+#  |  word letter hyphenation pattern character | | ||
+TOKEN BUFFER |  arraycopy begin end buffersize bufpos | 3\% | 0\% ||
+EXPLAIN |  weight explanation score expl val | 45\% | 0\% ||
+TIMING |  date time tools resolution cal | 2.6\% | 0\% ||
+READER |  read input offset seek pos | 23\% | 16\% ||
+~~~
+
+
+Above Table shows concern-wise bytecode execution summary for two benchmarks
+from the DaCapo suite, lusearch and luindex, which are both based on Apache lucene. It reports the
+cumulative bytecode execution cost attributed to sample concerns discovered in Apache lucene by our model
+CSTM. We list the top 5 words of a concern topic and assign a label to the concern for ease of interpretation.
+The entire process of generating the summary is fully automatic (except the choice of labels for concern topics of
+interest).\n
+
+Note the differences in the profile for the two benchmarks. The SEARCH and QUERY related concerns, including EXPLAIN, have a high bytecode execution cost when running
+lusearch, but are hardly exercised when running luindex. On the other hand the WRITE concern contributes
+to a significant percentage of bytecodes executed when running luindex. Some other concerns such as READER
+affect the execution cost of both benchmarks. \n
+
+As per the DaCapo benchmark descriptions, luindex uses lucene
+to index a set of documents while lusearch uses lucene to perform a text search of keywords over a corpus of
+data. Thus the results match with intuition. 
+
+== Contact
+Please feel free to contact "mrinal at csa dot iisc dot ernet dot in" for any queries, comments etc. \n If you have any thoughts or criticism on this work, we will be happy to discuss.
+

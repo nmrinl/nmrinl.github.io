@@ -1,0 +1,29 @@
+== Classification of text documents without any labelled data
+
+Classes and the corresponding descriptive words given as input to our system for 20 News Groups dataset. \n
+Notice that the descriptive words are selected just from the name of the category, they may not be the most popular word in the corresponding categories. 
+
+~~~
+{}{table}{TABLENAME}
+*Class* | *Descriptive words* ||
+alt.atheism | atheism ||
+comp.graphics | graphics ||
+comp.os.ms-windows.misc | windows ||
+comp.sys.ibm.pc.hardware | bios cmos ||
+comp.sys.mac.hardware | mac apple||
+comp.windows.x | xterm||
+misc.forsale | sale||
+rec.autos | cars||
+rec.motorcycles | motorcycle||
+rec.sport.baseball | baseball||
+rec.sport.hockey | hockey||
+sci.crypt | encryption||
+sci.electronics | power circuit||
+sci.med | disease||
+sci.space | space||
+soc.religion.christian | christian||
+talk.politics.guns | guns||
+talk.politics.mideast | israel armenian||
+talk.politics.misc | government president||
+talk.religion.misc | religion muslim
+~~~

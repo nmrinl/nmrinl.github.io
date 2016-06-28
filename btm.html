@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Classification of text documents without any labelled data</title>
+</head>
+<body>
+<div id="layout-content">
+<div id="toptitle">
+<h1>Classification of text documents without any labelled data</h1>
+</div>
+<p><a href="index.html">Mrinal Das</a>, <a href="http://drona.csa.iisc.ernet.in/~chiru/">Chiranjib Bhattacharyya</a>, <a href="http://drona.csa.iisc.ernet.in/~shirish/">Shirish Shevade</a></p>
+<p>On going work. A part of this work is under patenting process with Infosys.</p>
+<h2>Abstract</h2>
+<div class="infoblock">
+<div class="blockcontent">
+<p>Latent Dirichlet Allocation a very effective
+tool in modeling text. It is a probabilistic generative
+model that detects topics from a given
+set of texts. A topic is defined by a set of
+words. The algorithm starts with uniform distributions
+over the words for all the topics.
+So there is aparently no control over the algorithm
+in detecting the topics or in deciding
+the order of the topics beforehand. We introduce
+a novel approach to assign some prior
+distribution for each topic. The effectiveness of the model lead us to
+classify text corpora, without
+any labelled training data, and with accuracy
+very close to a very popular supervised classifier
+called Support Vector Machine. We also
+notice that this model can be extended
+to multi-lingual scenario as well.</p>
+</div></div>
+<h2>Preliminary results</h2>
+<p>Classification accuracy on 20 News Groups dataset.</p>
+<table id="TABLENAME">
+<tr class="r1"><td class="c1"><b>Method</b> </td><td class="c2"> <b>Test set</b> </td><td class="c3"> <b>Train set</b> </td></tr>
+<tr class="r2"><td class="c1">Our method </td><td class="c2"> 0.66 </td><td class="c3"> 0.71 </td></tr>
+<tr class="r3"><td class="c1">SVM </td><td class="c2"> 0.77 </td><td class="c3"> -
+</td></tr></table>
+<p>SVM was trained using the train set. No training, no labelled data were used for our method and the only input to the system was a few descriptive words corresponding to each of the 20 categories. See the input <a href="20ng_keys.html">here</a>. Notice that the input words are selected just from 1 or 2 words present in the name of the categories. <br /></p>
+<p>Our method learns topics which are aligned with the input descriptive words and hence the categories. See the output topics <a href="20ng_topics.html">here</a>.
+This explains efficacy of the approach. Notice that the topics contain many words which are semantically very much similar to the input words, and the input words in many cases are not the most probable word. This explains why the approach is not just a keyword search method. </p>
+<div id="footer">
+<div id="footer-text">
+Page generated 2016-06-28 13:34:50 EEST, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+</div>
+</div>
+</div>
+</body>
+</html>
