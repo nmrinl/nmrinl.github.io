@@ -1,1 +1,0 @@
-# nmrinl.github.io
