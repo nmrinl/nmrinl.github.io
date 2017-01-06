@@ -1,8 +1,8 @@
-#!/usr/local/bin/perl -w
+#!/usr/bin/perl -w
 use strict;
 
-system("python jemdoc.py index.jemdoc");
-system("python jemdoc.py teaching.jemdoc");
+system("/usr/bin/python jemdoc.py index.jemdoc");
+system("/usr/bin/python jemdoc.py teaching.jemdoc");
 system("python jemdoc.py work.jemdoc");
 system("python jemdoc.py publication.jemdoc");
 system("python jemdoc.py projects.jemdoc");

@@ -1,10 +1,14 @@
 # jemdoc: menu{MENU}{projects.html}, fwtitle, nofooter
 == Mrinal Kanti Das
 
-== Projects
+== Projects (myself being the primary researcher)
 #=== Completed
+- Efficient differential privacy for drug sensitivity prediction \n
+  Due to widespread digitization and automation, privacy of common people is put on risk. Blending differential privacy with Bayesian models is an elegant and promising solution to the threat. Although differential privacy is about a decade old now, but hardly any algorithm is parctically efficient. We make major breakthrough here considering the case of Bayesian linear regression we demonstrate the efficacy.
+  
 - [sumo.html Ordered Stick-Breaking Prior for Sequential MCMC Inference of Bayesian Nonparametric Models]
-
+  	     Big data is now a days common place, and has drawn a great deal of research interest due to its inherent challenges. We take a different look to the problem by splitting big data into small chunks (minibatches) and process them sequentially. This allows small scale systems to process large information. Technical contribution is to develop a Bayesian nonparametric process named OSBP which leads to the scalable MCMC inference named SUMO.
+	     
 - [http://mllab.csa.iisc.ernet.in/stm/ Subtle topic models (STM)] \n
 	/Subtle/ topics are prominently present neither in the corpus nor in any single document. It is hard to detect such topics due to their subtle presence motivating the name. However a subtle topic despite being rare may have significant information. We propose STM to discover such topics. [http://mllab.csa.iisc.ernet.in/stm/ more details].
 
