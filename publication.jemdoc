@@ -11,7 +11,8 @@ Antti Honkela(1), *Mrinal Das*(1), Onur Dikmen, Samuel Kaski. \n
 . Content Driven User Profiling for Comment-Worthy Recommendations of News and Blog Articles.\n
  Trapit Bansal, *Mrinal Das*, Chiranjib Bhattacharyya. \n
 [http://recsys.acm.org/recsys15/ The ACM Conference Series on Recommender Systems (*RecSys*), 2015].
-. [http://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/view/9503 Relating Romanized Comments to News Articles by Inferring Multi-glyphic Topical Correspondence]. \n
+#. [http://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/view/9503
+. [http://mllab.csa.iisc.ernet.in/mctm/ Relating Romanized Comments to News Articles by Inferring Multi-glyphic Topical Correspondence]. \n
 Goutham Tholpadi, *Mrinal Das*, Trapit Bansal, Chiranjib Bhattacharyya. \n
 [http://www.aaai.org/Conferences/AAAI/aaai15.php Association for the Advancement of Artificial Intelligence Conference (*AAAI*), 2015].
 . [http://mllab.csa.iisc.ernet.in/sctm/ Going beyond Corr-LDA for Detecting Specific Comments on News & Blogs.] \n
