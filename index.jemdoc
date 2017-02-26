@@ -6,7 +6,7 @@
 
 ~~~
 {}{img_left}{mrinal.jpg}{alt text}{200}{300} #WIDTHpx}{HEIGHTpx}{IMGLINKTARGET}
-{}{img_right}{summary2.pdf}{alt text}{200}{300} #WIDTHpx}{HEIGHTpx}{IMGLINKTARGET}
+
 
 Post-doctoral fellow\n
 Department of Computer Science,\n
@@ -22,6 +22,7 @@ Personal email: nmrinl [at] gmail [dot] com
 #Phd Advisor :  [http://drona.csa.iisc.ernet.in/~chiru/ Prof. Chiranjib Bhattacharyya]
 ~~~
 
+
 == Recent Positions 
 . +Postdoc+. Department of Computer Science, UMass, Amherst, MA, USA. \n
 Supervisor: [https://people.cs.umass.edu/~mccallum/ Prof. Andrew McCallum]\n
@@ -35,8 +36,12 @@ Project: Building differentially private Bayesian models for personalized medici
 Supervisor: [http://drona.csa.iisc.ernet.in/~chiru/ Prof. Chiranjib Bhattacharyya].  \n
 PhD Thesis: Extensions and Applications of Stick-Breaking Process on Topic Models.
 
+
+
 == Latest News
-Organizing SemEval 2017 task 10: "Extracting Keyphrases and Relations from Scientific Publications" with Isabelle Augenstein, Sebastian Riedel, and Andrew McCallum. See [https://scienceie.github.io/ ScienceIE website] for details.  
+Organizing ScienceIE -- SemEval 2017 task 10: "Extracting Keyphrases and Relations from Scientific Publications" with Isabelle Augenstein, Sebastian Riedel, and Andrew McCallum. See [https://scienceie.github.io/ ScienceIE website] for details.  
+
+A [https://www.wired.com/2017/02/ai-can-solve-peer-review-ai-can-solve-anything/ WIRED article] on ScienceIE.
 
 == Research Interests
 
