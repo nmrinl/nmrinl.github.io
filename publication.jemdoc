@@ -2,14 +2,19 @@
 == Mrinal Kanti Das
 
 == Publications
+. [http://arxiv.org/abs/1606.02109 Efficient differentially private learning improves drug sensitivity prediction].\n
+Antti Honkela(1), *Mrinal Das*(1), Arttu Nieminen, Onur Dikmen, Samuel Kaski. \n
+Biology Direct, 2017 [to appear]
+(1) These authors contributed equally to this work.
 .  [cikm17.pdf SOPER: Discovering the influence of fashion and the many faces of User from Session logs using Stick Breaking Process].\n
 Lucky Dhakad, *Mrinal Das*, Chiranjib Bhattacharyya, Samik Datta, Mihir Kale, Vivek Mehta.\n
 [http://cikm2017.org/ International Conference on Information and Knowledge Management (*CIKM*), 2017].
 . [ScienceIE2017.pdf SemEval 2017 Task 10: ScienceIE - Extracting Keyphrases and Relations from Scientific Publications].\n
 Isabelle Augenstein, *Mrinal Das*, Sebastian Riedel, Lakshmi Vikraman, Andrew McCallum.\n
 [http://alt.qcri.org/semeval2017/ International Workshop on Semantic Evaluation, 2017].
-. [http://arxiv.org/abs/1606.02109 Efficient differentially private learning improves drug sensitivity prediction].\n
+. Efficient differentially private learning.\n
 Antti Honkela(1), *Mrinal Das*(1), Onur Dikmen, Samuel Kaski. \n
+Theory and Practice of Differential Privacy WS at ICML 2016.\n
 (1) These authors contributed equally to this work.
 . [sumo.html Ordered Stick-Breaking Prior for Sequential MCMC Inference of Bayesian Nonparametric Models]. \n
 *Mrinal Das*, Trapit Bansal, Chiranjib Bhattacharyya. \n
