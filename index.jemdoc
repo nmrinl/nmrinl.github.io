@@ -13,16 +13,23 @@ Department of Computer Science and Engineering,\n
 [https://iitpkd.ac.in/ Indian Institute of Technology Palakkad, India]
 
 Email: mrinal [at] iitpkd [dot] ac [dot] in \n
-Personal email: nmrinl [at] gmail [dot] com
+Personal email: nmrinl [at] gmail [dot] com \n
 
+Founding member of [https://mlgiitpkd.github.io/personnel/personnel.html MLG-IITPKD].
 
 
 
 #Phd Advisor :  [http://drona.csa.iisc.ernet.in/~chiru/ Prof. Chiranjib Bhattacharyya]
 ~~~
 
+ 
+== Students
+- PhD. [https://rekharajct.github.io/ Rekha Raj]
 
-== Recent Positions
+== Former students
+- Polu Varshith (BTP), currently in Aalto University as intern
+ 
+== Past Positions
 . +Postdoc+. Department of Computer Science, UMass, Amherst, MA, USA. \n
 Supervisor: [https://people.cs.umass.edu/~mccallum/ Prof. Andrew McCallum]\n
 August, 2016 -- June, 2017. \n
@@ -37,10 +44,7 @@ PhD Thesis: Extensions and Applications of Stick-Breaking Process on Topic Model
 
 
 
-== Latest News
-Organizing ScienceIE -- SemEval 2017 task 10: "Extracting Keyphrases and Relations from Scientific Publications" with Isabelle Augenstein, Sebastian Riedel, and Andrew McCallum. See [https://scienceie.github.io/ ScienceIE website] for details.  
 
-A [https://www.wired.com/2017/02/ai-can-solve-peer-review-ai-can-solve-anything/ WIRED article] on ScienceIE.
 
 == Research Interests
 
@@ -61,8 +65,11 @@ I like to explore different areas of application and in recent past I have worke
 - Preserving privacy with widespread digitization and automation in society.\n
 Privacy has become important after digitization of each and every information which can be personal, private or public. My interest is to explore, if it is possible to utilize the provable privacy guarantees of differential privacy within Bayesian framework despite maintaining accuracy. Specially in the field of personalized medicine, privacy protection has become mandatory due to sensitive genomic information. Similar privacy issues are prevalent in social media, advertisements and recommendation systems.  
 
-== Research Achievements
+== Achievements
 #== Overview of my recent work
+
+Organizing ScienceIE -- SemEval 2017 task 10: "Extracting Keyphrases and Relations from Scientific Publications" with Isabelle Augenstein, Sebastian Riedel, and Andrew McCallum. See [https://scienceie.github.io/ ScienceIE website] for details.  
+A [https://www.wired.com/2017/02/ai-can-solve-peer-review-ai-can-solve-anything/ WIRED article] on ScienceIE.
 
 Topic models are popular mathematical tools for analysing text datasets, where a corpus is a collection of documents. The state of art notion in topic models was to use +single topic vector+ per document.
 I conceived the novel yet simple idea of using +multiple topic vectors+ (MTV). We have observed phenomenal ability of MTV in (i) discovering subtle topics, (ii) modeling specific correspondence, (iii) modeling multi-glyphic topical correspondence, (iv) content driven user profiling for comment-worthy recommendations, (v) discovering taste of users in e-commerce portals. All of them helped in inventing novel models (i) [http://mllab.csa.iisc.ernet.in/stm/ subtle topic models (STM, in ICML, 2013)], (ii) [http://mllab.csa.iisc.ernet.in/sctm/ specific correspondence topic models (SCTM, in WSDM, 2014)], (iii) [http://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/view/9503 multi-glyphic correspondence topic model (AAAI, 2015)], (iv) collaborative correspondence topic models (CCTM in RecSys, 2015), (v) SOPER (CIKM, 2017).
