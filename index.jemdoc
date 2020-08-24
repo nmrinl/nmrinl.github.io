@@ -8,31 +8,31 @@
 {}{img_left}{mrinal.jpg}{alt text}{200}{300} #WIDTHpx}{HEIGHTpx}{IMGLINKTARGET}
 
 
-Assistant Professor\n
-Department of Computer Science and Engineering,\n
-[https://iitpkd.ac.in/ Indian Institute of Technology Palakkad, India]
+- Assistant Professor, CSE, [https://iitpkd.ac.in/ IIT Palakkad].
+- Founding member of [https://mlgiitpkd.github.io/ MLG-IITPKD].
+- Founding member of [https://creds-iitpkd.github.io/ CREDS] (Centre for Research and Education in Data Science).
+- Founding member and Participating investigator in the Technology Innovation Hub (TIH) on Intelligent Collaborative Systems and IIT Palakkad.
 
+\n
 Email: mrinal [at] iitpkd [dot] ac [dot] in \n
-Personal email: nmrinl [at] gmail [dot] com \n
-
-Founding member of [https://mlgiitpkd.github.io/ MLG-IITPKD].\n
-Founding member of [https://creds-iitpkd.github.io/ CREDS] (Centre for Research and Education in Data Science).
-
-
-
-#Phd Advisor :  [http://drona.csa.iisc.ernet.in/~chiru/ Prof. Chiranjib Bhattacharyya]
 ~~~
 
+== Activities
+- A Learner-Simulator system called [https://covid.iitpkd.ac.in/ LeSi] to model Covid19 pandemic and [https://covid.iitpkd.ac.in/ xDet], a Deep Learning based model to detect Covid19 from x-ray images on the fly. 
+
+== Current Focus
+- Privacy-aware learning
+- Smart Agriculture
  
 == Students
-- PhD. [https://rekharajct.github.io/ Rekha Raj]
+- PhD. Yumna Fatma Farooqi 
 - MS. Rimmon Bhosala
 - MS. Gaurav Jain
 
-== Available Positions
-- Postdoc. All relevant areas of Machine learning and data science
-- PhD. Privacy-aware learning, Bayesian deep learning
-- Research assistant (JRF). Privacy-aware learning, Bayesian deep learning
+- BTP. Shruti Umat
+- BTP. Sakshi Rathore
+- BTP. Subhash 
+
 
 == Grants
 - SERB grant for Bayesian Deep Models for Efficient Privacy-Aware Learning in the Era of Big Data and Personalization, 2020
@@ -52,9 +52,7 @@ PhD Thesis: Extensions and Applications of Stick-Breaking Process on Topic Model
 
 
 
-
-
-== Research Interests
+== Research 
 
 My fascination is to develop simple and novel mathematical models to address interesting and challenging practical problems. \n
 #During my PhD I have focused on text datasets, they are ubiquitous and possess some interesting challenges requiring novel techniques.\n 
