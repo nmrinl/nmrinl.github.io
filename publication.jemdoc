@@ -2,46 +2,46 @@
 == Mrinal Kanti Das
 
 == Publications
-. [icbk18.pdf Weight-Agnostic Hierarchical Stick-Breaking Process].\n
+. [mrinalkd_icbk18.pdf Weight-Agnostic Hierarchical Stick-Breaking Process].\n
   *Mrinal Das*, Chiranjib Bhattacharyya.\n
  [http://icbk2018.bigke.org/ IEEE International Conference on Big Knowledge (*ICBK*), 2018].\n
 . [https://biologydirect.biomedcentral.com/articles/10.1186/s13062-017-0203-4 Efficient differentially private learning improves drug sensitivity prediction].\n
 Antti Honkela(1), *Mrinal Das*(1), Arttu Nieminen, Onur Dikmen, Samuel Kaski. \n
 Biology Direct, 2018\n
 (1) These authors contributed equally to this work.
-.  [cikm17.pdf SOPER: Discovering the influence of fashion and the many faces of User from Session logs using Stick Breaking Process].\n
+.  [mrinalkd_cikm2017.pdf SOPER: Discovering the influence of fashion and the many faces of User from Session logs using Stick Breaking Process].\n
 Lucky Dhakad, *Mrinal Das*, Chiranjib Bhattacharyya, Samik Datta, Mihir Kale, Vivek Mehta.\n
 [http://cikm2017.org/ International Conference on Information and Knowledge Management (*CIKM*), 2017].
 . [ScienceIE2017.pdf SemEval 2017 Task 10: ScienceIE - Extracting Keyphrases and Relations from Scientific Publications].\n
 Isabelle Augenstein, *Mrinal Das*, Sebastian Riedel, Lakshmi Vikraman, Andrew McCallum.\n
 [http://alt.qcri.org/semeval2017/ International Workshop on Semantic Evaluation, 2017].
-. Efficient differentially private learning.\n
+. [mrinalkd_biologydirect2018.pdf Efficient differentially private learning].\n
 Antti Honkela(1), *Mrinal Das*(1), Onur Dikmen, Samuel Kaski. \n
 Theory and Practice of Differential Privacy WS at ICML 2016.\n
 (1) These authors contributed equally to this work.
-. [sumo.html Ordered Stick-Breaking Prior for Sequential MCMC Inference of Bayesian Nonparametric Models]. \n
+. [mrinalkd_icml2015.pdf Ordered Stick-Breaking Prior for Sequential MCMC Inference of Bayesian Nonparametric Models]. \n
 *Mrinal Das*, Trapit Bansal, Chiranjib Bhattacharyya. \n
 [http://icml.cc/2015/ International Conference on Machine Learning (*ICML*), 2015].
-. Content Driven User Profiling for Comment-Worthy Recommendations of News and Blog Articles.\n
+. [mrinalkd_recsys2015.pdf Content Driven User Profiling for Comment-Worthy Recommendations of News and Blog Articles].\n
  Trapit Bansal, *Mrinal Das*, Chiranjib Bhattacharyya. \n
 [http://recsys.acm.org/recsys15/ The ACM Conference Series on Recommender Systems (*RecSys*), 2015].
 #. [http://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/view/9503
-. [http://mllab.csa.iisc.ernet.in/mctm/ Relating Romanized Comments to News Articles by Inferring Multi-glyphic Topical Correspondence]. \n
+. [mrinalkd_aaai2015.pdf Relating Romanized Comments to News Articles by Inferring Multi-glyphic Topical Correspondence]. \n
 Goutham Tholpadi, *Mrinal Das*, Trapit Bansal, Chiranjib Bhattacharyya. \n
 [http://www.aaai.org/Conferences/AAAI/aaai15.php Association for the Advancement of Artificial Intelligence Conference (*AAAI*), 2015].
-. [http://mllab.csa.iisc.ernet.in/sctm/ Going beyond Corr-LDA for Detecting Specific Comments on News & Blogs.] \n
+. [mrinalkd_wsdm2014.pdf Going beyond Corr-LDA for Detecting Specific Comments on News & Blogs.] \n
 *Mrinal Das*, Trapit Bansal, Chiranjib Bhattacharyya. \n
 [http://www.wsdm-conference.org/2014/ ACM Conference on Web Search and Data Mining (*WSDM*), 2014].
 .. Recipient of travel award from Google and Yahoo!.
-. [http://mllab.csa.iisc.ernet.in/stm/ Subtle Topic Models and Discovering Subtly Manifested Software Concerns Automatically]. \n
+. [mrinalkd_icml2013.pdf Subtle Topic Models and Discovering Subtly Manifested Software Concerns Automatically]. \n
 *Mrinal Das*, Suparna Bhattacharya, Chiranjib Bhattacharyya, K. Gopinath. \n
 [http://icml.cc/2013/ International Conference on Machine Learning (*ICML*), 2013].
 .. Recipient of travel award from Google and Yahoo!.
-. [ShoBha.pdf Cluster Labeling for Multilingual Scatter/Gather in Resource-scarce
+. [mrinalkd_ecir2012.pdf Cluster Labeling for Multilingual Scatter/Gather in Resource-scarce
 Languages]. \n
 Goutham Tholpadi, *Mrinal Das*, Chiranjib Bhattacharyya, Shirish Shevade. \n
 [http://ecir2012.upf.edu/ European Conference on Information Retrieval (*ECIR*), 2012]
-. [icdm2011.pdf Learning Dirichlet Processes from Partially Observed Groups]. \n
+. [mrinalkd_icdm2011.pdf Learning Dirichlet Processes from Partially Observed Groups]. \n
 Avinava Dubey, Indrajit Bhattacharya, *Mrinal Das*, Tanveer Faruquie, Chiranjib Bhattacharyya. \n
 [http://icdm2011.cs.ualberta.ca/index.php International Conference on Data Mining (*ICDM*), 2011]
 . [https://content.iospress.com/articles/fundamenta-informaticae/fi83-3-01  Non-dominated Rank based Sorting Genetic Algorithms]. \n
