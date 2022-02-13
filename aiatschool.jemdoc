@@ -4,10 +4,12 @@
 - A hands-on tutorial to learn about basic theories as welll as develop an AI driven system
 
 == Content at high level
-. Introduction to machine learning
-. Introduction to computer vision or natural language processing
-. Differential privacy, Laplace mechanism
-. Linear regression
-. Privacy-aware linear regression
+. Introduction to Machine Learning (ML) and Deep Learning (DL)
+.. the most powerful sub-area of AI
+. Introduction to Computer Vision (CV) or Natural Language Processing (NLP)
+.. two most popular application domains
+. Application on Object detection using ML and CV
+.. hands-on session using Colab and Tensorflow
 
 == First workshop was conducted for Kendriya Vidyalaya Kanjikode in Nov 2021 
+- Students developed object tracking software
