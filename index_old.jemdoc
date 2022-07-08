@@ -18,63 +18,71 @@ Email: mrinal [at] iitpkd [dot] ac [dot] in \n
 
 === Open positions 
 - JRF in ML and CV domain. See the description [job.html here].
-- Project Associate. All good candidates are welcome to email me.  
+
+- Project Trainee. Welcome all good candidates (email me).  
+~~~
+-- This is a basic training program to work on R&D projects, stipend is not provided
+-- Apply if you are proficient in Python programming, aware of basic data science, and can commit for six months.
+-- Your email subject should have the position name, and in content describe your one project briefly (5 sentences)
+~~~
 
 
 
 == Activities
-- [https://mlgiitpkd.github.io/dst.html Florence Nightingale Data Science Talk Series], an +online freely open to all+ monthly event where eminent researchers across the country talk to students and researchers.
-- Active in spreading awareness among +younger brains on data science+. [aiatschool.html AI@School] has been developed as one platform for this purpose. 
-- A [https://hands-on-data.github.io/ hands-on data science tutorial] for beginners where unlike any other tutorial, learners can find useful codes, modify them and also execute to see the outcome. It is extremely easy to use and requires only a Google id and internet access to learn a wide range of data science tools and techniques. 
-
-- Organized a [wpal.html Workshop on Privacy-Aware Learning], 10 Jan 2022. 
+- Co-organizing [https://mlgiitpkd.github.io/dst.html Florence Nightingale Data Science Talk Series]
+- A [https://hands-on-data.github.io/ hands-on data science tutorial] for beginners where unlike any other tutorial, learners can find useful codes, modify them and also execute and see the outcome. It is extremely easy to use and requires only a Google id and internet access to learn a wide range of data science tools and techniques. 
 - Co-organized the [https://creds.iitpkd.ac.in/wspa Workshop on Smart and Precise Agriculture] as part of the [http://www.pakdd.net/ 26th Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD-2022)].
+- Co-organized a [wpal.html Workshop on Privacy-Aware Learning], 10 Jan 2022. 
 #-- You will be given exposure to basic theory behind privacy-aware learning. After that, through interactive demos you will be taught to develop machine learning models which preserve data privacy. You will code using online editor.   
 #-- [https://forms.gle/VsZTNdUrR34NS7AR7 Register here before 5 Jan 2022] to receive the zoom link. 
+- Co-organized a [aiatschool.html Workshop AI@School] over eight days for Kendriya Vidyalaya Kanjikode students from std ix to xii on Artificial Intelligence. 
 - Co-organized the [https://creds.iitpkd.ac.in/wspa Workshop on Smart and Precise Agriculture] as part of the [https://www.pakdd2021.org/ 25th Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD-2021)].
-
 - A Learner-Simulator system called [https://covid.iitpkd.ac.in/ LeSi] to model Covid19 pandemic and [https://covid.iitpkd.ac.in/ xDet], a Deep Learning based model to detect Covid19 from x-ray images on the fly. 
 
  
 == Students
 - PhD. Yumna Fatma Farooqi 
 - PhD. Eva Cherian \n
-- MTech. Muhammed Favas 
 
-- MS. Gaurav Jain (thesis submitted) 
+- MS. Gaurav Jain (thesis submitted) \n
 
+- MTech. Favaz
 
 === Graduated
-- MS. Rimmon Bhosala (V-labs), 2022
-- MTech-2022. Vaishak Nair (Zoom), Narthu Chandrasekhar (Wabtec)
-
-=== Notable Projects
-- Sakshi Rathore (BTech 2021) developed a web-app for privacy-aware learning that can demonstrate differential privacy and learning with privacy in an interactive manner
-- Subhajit and Parmanand (BTech 2022) developed a web-app +Hands-on-Data+ which can teach data science in an interactive manner 
-- Vaishak Nair (MTech 2022), Irene Casmir and Harikrishnan (BTech 2022)  developed a tool to count crops automatically from images as well as videos \n
-
-- Shikha, Rimmon, Gaurav (MS 2022) developed xDet to detect Covid19 automatically from x-ray images \n
-
-- Rimmon (MS 2022) developed a technique to make CNN learn +justifiable+ features from images without affecting accuracy.
-- Gaurav (MS 2022) developed a technique to automatically detect rare events in images without using labelled samples for training. 
-
-
-== Research
-- My fascination is to develop simple and novel mathematical models to address interesting and challenging practical problems. \n
-- Current research interest is in Machine learning, Computer vision, Deep learning, Bayesian models, Learning to learn, Privacy-aware learning \n
+- MS. Rimmon Bhosala, 2022
+- MTech-2022. Vaishak Nair, Narthu Chandrasekhar 
 
 
 
-=== Grants
-- Grant from Sansera Engineering Ltd for Detecting Cracks in Metallic Objects using Machine Learning and Computer Vision, 2022. +Apply for JRF+
+
+== Grants
+- Grant from Sansera Engineering Ltd for Detecting Cracks in Metallic Objects using Machine Learning and Computer Vision, 2022.
 - SERB grant for Bayesian Deep Models for Efficient Privacy-Aware Learning in the Era of Big Data and Personalization, 2020
 - A grant from from IPTIF (IIT Palakkad Technology IHub Foundation) for Smart and Precise Agriculture along with [https://iitpkd.ac.in/people/sahely Dr. Sahely Bhadra], [https://iitpkd.ac.in/people/satyajitdas Dr. Satyajit Das](PI), and [https://iitpkd.ac.in/people/sreenath Dr. Sreenath Vijayakumar], 2021.
 
 
 
+== Research 
 
+My fascination is to develop simple and novel mathematical models to address interesting and challenging practical problems. \n
+#During my PhD I have focused on text datasets, they are ubiquitous and possess some interesting challenges requiring novel techniques.\n 
+Broadly, I am interested in
+
++Technical+\n
+- Topic models
+- Bayesian nonparametrics
+- Differentially private Bayesian models
+- Bayesian Deep Learning
+
++Practical+\n
+- Information retrieval and extraction from large unstructured text datasets.\n
+I like to explore different areas of application and in recent past I have worked with various types of text datasets like software projects, speech transcripts, multi-lingual corpora, news/blogs and comments. I have observed some challenging problems associated with these applications and developed novel mathematical models to solve them.
+
+- Preserving privacy with widespread digitization and automation in society.\n
+Privacy has become important after digitization of each and every information which can be personal, private or public. My interest is to explore, if it is possible to utilize the provable privacy guarantees of differential privacy within Bayesian framework despite maintaining accuracy. Specially in the field of personalized medicine, privacy protection has become mandatory due to sensitive genomic information. Similar privacy issues are prevalent in social media, advertisements and recommendation systems.  
 
 === Achievements
+#== Overview of my recent work
 
 Organizing ScienceIE -- SemEval 2017 task 10: "Extracting Keyphrases and Relations from Scientific Publications" with Isabelle Augenstein, Sebastian Riedel, and Andrew McCallum. See [https://scienceie.github.io/ ScienceIE website] for details.  
 A [https://www.wired.com/2017/02/ai-can-solve-peer-review-ai-can-solve-anything/ WIRED article] on ScienceIE.
@@ -84,8 +92,10 @@ I conceived the novel yet simple idea of using +multiple topic vectors+ (MTV). W
 
 I have also worked on Bayesian nonparametric models for learning very large scale (more than 8 million documents and 700 million tokens) datasets. There is /NO/  method known using MCMC for such scale without using expensive parallel hardware. The technique is called [https://nmrinl.github.io/mrinalkd_icml2015.pdf SUMO] and the work has been published at ICML, 2015.
 
+#I have invented a novel Bayesian nonparametric prior and used the concept of MTV across documents to apply MCMC. We have observed significant results.
 
 Recently at Aalto university, we have been able to solve the problem of predicting drug sensitivity using gene expressions even after preserving privacy. I have conceived the novel concept of +projecting outliers to tighter bounds without affecting non-outliers+  which has been the key in our method.
+# to rank cell lines using private information which is comparable with non-private models and there is no other solution. 
 
 
 
@@ -106,5 +116,9 @@ PhD Thesis: Extensions and Applications of Stick-Breaking Process on Topic Model
 
 
 
+#== Other Activities
+#- Volunteer for the [http://drona.csa.iisc.ernet.in/~shivani/Events/Indo-US-Symposium-2010/ Indo-US Symposium on New #Directions in Machine Learning, Game Theory, and Optimization]
+
+#- Volunteer for the [http://www.dsplog.com/2008/04/23/mcdes-2008-iisc-bangalore-may-2008/ MCDES 2008]
 
 
