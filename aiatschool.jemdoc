@@ -2,7 +2,7 @@
 
 - Workshop designed for school students to spread awareness on AI
 - A hands-on tutorial to learn about basic theories as welll as develop an AI driven system
-- Designed for students from class 8 to class 12
+- Appropriate for students from class 8 to class 12
 
 == Content at high level
 . Introduction to Machine Learning (ML) and Deep Learning (DL)
@@ -11,10 +11,19 @@
 .. two most popular application domains
 . Application on Object detection using ML and CV
 .. hands-on session using Colab and Tensorflow
-. Building Image Classification tools using [Teachable Machines https://teachablemachine.withgoogle.com/]
+. Building Image Classification tools using [https://teachablemachine.withgoogle.com/ Teachable Machines]
 
 == Workshops conducted
 . The first workshop was conducted for Kendriya Vidyalaya Kanjikode in Nov 2021 
 .. Students developed object tracking software
 . The second workshop was conducted as part of Science Quest and Crystal Program at IIT Palakkad in May 2022
 .. Students built an AI tool to classify images
+
+== Coordinators
+- Vaishak Nair, Yumna Farooqi, Eva Cherian
+- [https://nmrinl.github.io/index.html Mrinal Kanti Das] \n\n
+
+Contact us for more details. We are enthusiastic to conduct such workshops in more schools. 
+
+
+
