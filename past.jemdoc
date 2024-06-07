@@ -1,0 +1,39 @@
+# jemdoc: menu{MENU}{index.html}, fwtitle, nofooter
+# jemdoc: nodefaultcss, addcss{jemdoc.css}
+== Mrinal Kanti Das
+
+== Once Upon A Time
+
+
+Organizing ScienceIE -- SemEval 2017 task 10: "Extracting Keyphrases and Relations from Scientific Publications" with Isabelle Augenstein, Sebastian Riedel, and Andrew McCallum. See [https://scienceie.github.io/ ScienceIE website] for details.  
+A [https://www.wired.com/2017/02/ai-can-solve-peer-review-ai-can-solve-anything/ WIRED article] on ScienceIE.
+
+Topic models are popular mathematical tools for analysing text datasets, where a corpus is a collection of documents. The state of art notion in topic models was to use +single topic vector+ per document.
+I conceived the novel yet simple idea of using +multiple topic vectors+ (MTV). We have observed phenomenal ability of MTV in (i) discovering subtle topics, (ii) modeling specific correspondence, (iii) modeling multi-glyphic topical correspondence, (iv) content driven user profiling for comment-worthy recommendations, (v) discovering taste of users in e-commerce portals. All of them helped in inventing novel models (i) [https://nmrinl.github.io/mrinalkd_icml2013.pdf subtle topic models (STM, in ICML, 2013)], (ii) [https://nmrinl.github.io/mrinalkd_wsdm2014.pdf specific correspondence topic models (SCTM, in WSDM, 2014)], (iii) [https://nmrinl.github.io/mrinalkd_aaai2015.pdf multi-glyphic correspondence topic model (AAAI, 2015)], (iv) [https://nmrinl.github.io/mrinalkd_recsys2015.pdf collaborative correspondence topic models] (CCTM in RecSys, 2015), (v) [https://nmrinl.github.io/mrinalkd_cikm2017.pdf SOPER] (CIKM, 2017).
+
+I also worked on Bayesian nonparametric models for learning very large scale (more than 8 million documents and 700 million tokens) datasets. There is /NO/  method known using MCMC for such scale without using expensive parallel hardware. The technique is called [https://nmrinl.github.io/mrinalkd_icml2015.pdf SUMO] and the work has been published at ICML, 2015.
+
+
+At Aalto university, we could solve the problem to some extent of predicting drug sensitivity using gene expressions even after preserving privacy. I have conceived the novel concept of +projecting outliers to tighter bounds without affecting non-outliers+  which has been the key in our method.
+
+
+
+== Past Positions
+. +Postdoc+. Department of Computer Science, UMass, Amherst, MA, USA. \n
+Supervisor: [https://people.cs.umass.edu/~mccallum/ Prof. Andrew McCallum]\n
+August, 2016 -- June, 2017. \n
+Project: Building next generation reviewing system.
+. +Postdoc+. Department of Computer Science, Aalto University in Helsinki, Finland.\n
+Supervisor: [https://users.ics.aalto.fi/sami/ Prof. Samuel Kaski].\n
+October, 2014 -- July 2016. \n
+Project: Building differentially private Bayesian models for personalized medicine. Academy of Finland funded.
+. +PhD+. Department of Computer Science and Automation, Indian Institute of Science, India.\n
+Supervisor: [http://drona.csa.iisc.ernet.in/~chiru/ Prof. Chiranjib Bhattacharyya].  \n
+PhD Thesis: Extensions and Applications of Stick-Breaking Process on Topic Models.
+
+
+
+
+
+
+
