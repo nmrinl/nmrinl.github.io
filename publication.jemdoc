@@ -2,6 +2,9 @@
 == Mrinal Kanti Das
 
 == Publications
+. Going Beyond Explainability: Learning Justifiable Vision Transformers Guided by Flow Matching. \n
+Thomas John, Akshay Krishna, Jotipriya Das, *Mrinal Das*\n
+ECML PKDD 2026
 . [https://www.sciencedirect.com/science/article/pii/S0925231226008143?via%3Dihub Modeling Task Uncertainty for Neural Processes to Meta-Learn with Fewer Tasks]. \n
 Eva Cherian, *Mrinal Das*\n
 Neurocomputing journal, 2026.
@@ -71,7 +74,7 @@ Theory and Practice of Differential Privacy WS at ICML 2016.\n
 . [mrinalkd_aaai2015.pdf Relating Romanized Comments to News Articles by Inferring Multi-glyphic Topical Correspondence]. \n
 Goutham Tholpadi, *Mrinal Das*, Trapit Bansal, Chiranjib Bhattacharyya. \n
 [http://www.aaai.org/Conferences/AAAI/aaai15.php Association for the Advancement of Artificial Intelligence Conference (*AAAI*), 2015].
-. [mrinalkd_wsdm2014.pdf Going beyond Corr-LDA for Detecting Specific Comments on News & Blogs.] \n
+. [https://dl.acm.org/doi/10.1145/2556195.2556231 Going beyond Corr-LDA for Detecting Specific Comments on News & Blogs.] \n
 *Mrinal Das*, Trapit Bansal, Chiranjib Bhattacharyya. \n
 [http://www.wsdm-conference.org/2014/ ACM Conference on Web Search and Data Mining (*WSDM*), 2014].
 .. Recipient of travel award from Google and Yahoo!.
