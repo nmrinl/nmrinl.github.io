@@ -354,10 +354,16 @@ td {
 table + table {
     margin-top: 1em;
 }
+tr:nth-child(even) {
+  background-color: #F7FEE7;
+}
+tr:nth-child(odd) {
+  background-color: #F0FDF4;
+}
 
 tr.heading {
     font-weight: bold;
-    border-bottom: 2px solid black;
+    border-bottom: 0px solid black;
 }
 
 img {
